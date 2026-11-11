@@ -1,1 +1,57 @@
+/* page reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: inherit;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+#increment {
+  background-color: green;
+  color: white;
+}
+
+#decrement {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  padding: 1rem;
+  border-top: 1px solid black;
+  font-size: 1rem;
+}
