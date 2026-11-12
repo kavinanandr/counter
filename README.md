@@ -206,8 +206,6 @@ Potential enhancements for future versions:
 
 **Kavin Anand**
 
-B.Tech Computer Science and Engineering Student | Aspiring Full-Stack Developer
-
 - GitHub: [@kavinanandr](https://github.com/kavinanandr)
 - Repository: [counter](https://github.com/kavinanandr/counter)
 - Live Application: [Counter App](https://counter-two-plum.vercel.app/)
