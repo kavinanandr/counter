@@ -114,7 +114,7 @@ counter/
 │
 ├── src/                         # Main application source code
 │   ├── assets/                  # Static assets used by the application
-│   │   └── icon                 # Application icon asset
+│   │   └── favicon.png          # Application icon asset
 │   │
 │   ├── App.jsx                  # Main counter component and application logic
 │   ├── index.css                # Global styles and responsive styling
