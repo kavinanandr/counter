@@ -85,6 +85,10 @@ button:hover {
   cursor: pointer;
 }
 
+button:active {
+  opacity: 100%;
+}
+
 #increment {
   background-color: var(--INCREMENT);
 }
