@@ -7,12 +7,18 @@
 
 /* declarations */
 :root {
---BACKGROUND: #f8fafc;
---TEXT: #0f172a;
---FOOTER: #e2e8f0;
---INCREMENT: #10b981;
---DECREMENT: #ef4444;
---RESET: #64748b;
+  --BACKGROUND: #eef2f6;
+  --TEXT: #0f172a;
+  --FOOTER: #e2e8f0;
+  --BUTTON-COLOR: white;
+  --INCREMENT: #10b981;
+  --DECREMENT: #ef4444;
+  --RESET: #64748b;
+  --CONTAINER-BG: #ffffff;
+  --CONTAINER-BORDER: #cbd5e1;
+  --CONTAINER-SHADOW:
+    0 12px 30px -6px rgba(15, 23, 42, 0.12),
+    0 4px 10px -4px rgba(15, 23, 42, 0.06);
 }
 
 body {
@@ -37,6 +43,14 @@ main {
   align-items: center;
 }
 
+.container {
+  background-color: var(--CONTAINER-BG);
+  border: 1px solid #cbd5e1;
+  border-radius: 16px;
+  box-shadow: var(--CONTAINER-SHADOW);
+  margin: 1rem;
+}
+
 h1 {
   padding: 1rem;
   text-align: center;
@@ -52,8 +66,9 @@ button {
   padding: 1rem;
   margin: 0.5rem;
   font-size: 1rem;
+  border: none;
   border-radius: 16px;
-  color: white;
+  color: var(--BUTTON-COLOR);
 }
 
 button:hover {
@@ -77,5 +92,5 @@ footer {
   padding: 0.5rem;
   border-top: 1px solid black;
   background-color: var(--FOOTER);
+  text-align: center;
 }
-
