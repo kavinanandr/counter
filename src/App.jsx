@@ -11,6 +11,10 @@ function App() {
     setCounter(counter - 1);
   };
 
+  const reset = () => {
+    setCounter(0);
+  }
+
   return (
     <>
       <header>
@@ -20,11 +24,12 @@ function App() {
       <main>
         <h2>counter value: {counter}</h2>
         <div className="buttons">
-          <button id="increment" onClick={increment}>
-            increment
-          </button>
           <button id="decrement" onClick={decrement}>
-            decrement
+            - dec
+          </button>
+          <button id="reset" onClick={reset}>&#x21BA; reset</button>
+          <button id="increment" onClick={increment}>
+            + inc
           </button>
         </div>
       </main>
