@@ -110,3 +110,15 @@ footer {
     font-size: 1.75rem;
   }
 }
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --BACKGROUND: #090d16;
+    --TEXT: #f8fafc;
+    --FOOTER: #0f172a;
+    --CONTAINER-BG: #162033;
+    --CONTAINER-BORDER: #2a3954;
+    --CONTAINER-SHADOW: 0 20px 35px -8px rgba(0, 0, 0, 0.65);
+  }
+}
